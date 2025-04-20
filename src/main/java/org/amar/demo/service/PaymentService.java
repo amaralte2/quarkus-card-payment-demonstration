@@ -26,7 +26,7 @@ public class PaymentService {
 	private final ScheduledExecutorService executor = Executors.newScheduledThreadPool(5);
 
 	/**
-	 * Initiates a new payment transaction with simulated processing
+	 * Initiates a new payment transaction
 	 * 
 	 * @param request Payment request containing amount and card details
 	 * @return Uni containing PaymentResponse with initial status
